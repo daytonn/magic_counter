@@ -1,0 +1,92 @@
+.player {
+  position: relative;
+  width: 100%;
+
+  &:last-child {
+    border-top: dashed 2px white;
+  }
+
+  p {
+    @extend %reset-dimensions;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .life {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: em(60);
+    // opacity: 0.75;
+    text-align: center;
+    vertical-align: center;
+  }
+
+  .buttons: {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .player-button {
+    color: white;
+    display: block;
+    font-family: FontAwesome;
+    font-size: em(30);
+    height: 50%;
+    width: 50%;
+    opacity: 0.6;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: center;
+
+    &:first-child {
+      border-right: solid 1px white;
+      border-bottom: solid 2px white;
+    }
+
+    &:nth-child(2) {
+      border-left: solid 1px white;
+      border-bottom: solid 2px white;
+    }
+
+    &:nth-child(3) {
+      border-right: solid 1px white;
+    }
+
+    &:last-child {
+      border-left: solid 1px white;
+    }
+  }
+
+  .increment-by-1 {
+    left: 0;
+    top: 0;
+    color: green;
+  }
+
+  .increment-by-5 {
+    left: 50%;
+    top: 0;
+    color: green;
+  }
+
+  .decrement-by-1 {
+    left: 0;
+    top: 50%;
+    color: red;
+  }
+
+  .decrement-by-5 {
+    left: 50%;
+    top: 50%;
+    color: red;
+  }
+}

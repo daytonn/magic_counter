@@ -1,0 +1,5 @@
+App.Templates = {
+    "counter": function(obj){var __p=[],print=function(){__p.push.apply(__p,arguments);};with(obj||{}){__p.push('');}return __p.join('');},
+	"player": function(obj){var __p=[],print=function(){__p.push.apply(__p,arguments);};with(obj||{}){__p.push('<p class="name">Player ',  player.id ,'</p>\n<p class="life">',  player.get("life") ,'</p>\n<div class="buttons">\n  <a href="javascript:;" class="increment-by-1 player-button"><i class="icon-plus"></i></a>\n  <a href="javascript:;" class="increment-by-5 player-button"><i class="icon-upload"></i></a>\n  <a href="javascript:;" class="decrement-by-1 player-button"><i class="icon-minus"></i></a>\n  <a href="javascript:;" class="decrement-by-5 player-button"><i class="icon-download"></i></a>\n</div>');}return __p.join('');},
+	"test": function(obj){var __p=[],print=function(){__p.push.apply(__p,arguments);};with(obj||{}){__p.push('');}return __p.join('');}
+};

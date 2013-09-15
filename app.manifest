@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# Cache manifest version 0.0.1
+
+images/backgrounds/gradient.png
+lib/magic_counter.js
+css/main.css
+fonts/fontawesome-webfont.eot
+fonts/fontawesome-webfont.svg
+fonts/fontawesome-webfont.ttf
+fonts/fontawesome-webfont.woff
+fonts/FontAwesome.otf
+index.html
+
+CACHE:
+# Additional items to cache.
+
+FALLBACK:
+# Fallback items to cache.
